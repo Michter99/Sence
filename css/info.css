@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.nav-logo {
+  width: 50px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.nav-link {
+  margin: 0 20px 0 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.section-div {
+  margin-top: 100px;
+  padding: 0;
+}
+
+.section-div p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.section-div h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.section-div img {
+  width: 350px;
+  border-radius: 10%;
+}
+
+.house-section {
+  background-color: #e8f5ff;
+}
+
+.house-section p {
+  text-align: center;
+}
+
+.house-section img {
+  display: block;
+  margin: auto;
+}
+
+.comments-div {
+  text-align: center;
+}
+
+.card-comment {
+  background-color: #e8f5ff;
+  width: 35%;
+  border-radius: 10px;
+  margin: 60px auto;
+}
+
+.card-comment p {
+  margin: 0;
+}
+
+.final-card {
+  margin: auto;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+footer a {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+footer a:hover {
+  color: #666a80;
+}
+
+@media (max-width: 990px) {
+  .navbar a {
+    font-size: 17px;
+    margin: 5px 0;
+  }
+
+  .nav-logo {
+    width: 50px;
+    margin: 0;
+  }
+
+  .section-div {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .section-div h1 {
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .section-div p {
+    margin: 30px 0;
+  }
+
+  .section-div img {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .card-comment {
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+  }
+}
