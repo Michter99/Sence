@@ -41,6 +41,7 @@ nav {
 #banner img {
   width: 450px;
   border-radius: 10%;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 990px) {
