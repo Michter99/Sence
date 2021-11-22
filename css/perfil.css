@@ -1,0 +1,28 @@
+#arriba {
+    background-color: #E8F5FF;
+    color: black;
+    padding-left: 5%;
+  }
+  #arribad {
+    background-color: #E8F5FF;
+    color: black;
+  }
+  
+  #ai {
+    background-color: white;
+    color: black;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+  }
+  
+  #ad {
+    background-color: #CFCFFA;
+  }
+  #foto {
+    border-radius: 50%;
+    width: 200px;
+  }
+  #row1{
+    background-color: #E8F5FF;
+  }
