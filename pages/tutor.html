@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/png" href="../imagenes/h.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta charset="utf-8" />
+
+    <title>Tutor</title>
+  </head>
+  <body>
+    <!----------------------------------------Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img src="../img/logo.png" alt="logo" class="nav-logo" />
+        <a class="navbar-brand" href="../index.html" style="font-size: 25px">Sence</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="./info.html">Información</a>
+            <a class="nav-link active" href="./serv-soc.html">Servicio Social</a>
+            <a class="nav-link active" href="./contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+     <!----------------------------------------FINavbar-->
+     <div class="container-fluid">
+         <div class="row">
+             <!---Inicio columna 1-->
+             <div class="col col-md-6 my-4">
+                <h2>Mi perfil</h2> 
+                <div class="card">
+                    <div class="card-body">
+                        <form id="task-form">
+                            <div class="form-group">
+                                    <label for="task-nombre">Nombre</label>
+                                    <input type="text" class="form-control" id="task-nombre" required/>
+                                  </div>
+                                   <div class="form-group">
+                                    <label for="task-apellidos">Apellidos</label>
+                                    <input type="text" class="form-control" id="task-apellidos" required/>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="task-cel">celular</label>
+                                    <input type="tel" class="form-control" id="task-cel" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="task-correo">Dirección email</label>
+                                    <input
+                                      type="email"
+                                      class="form-control"
+                                      id="task-correo" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="task-uni">Universidad</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="task-uni"  />              
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="task-carrera">Carrera</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="task-carrera"/>
+                                  </div>
+                                  <div class="form-group">
+                                  <label for="task-exp">Experiencia:</label>
+                                  <textarea class="form-control" id="task-exp" rows="4"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="task-intereses">Intereses:</label>
+                                    <textarea class="form-control" id="task-intereses" rows="4"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="task-estudios">Estudios:</label>
+                                    <textarea class="form-control" id="task-estudios" rows="4"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="task-materia">Materia</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="task-materia"/>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="task-progreso">Progreso de clases:</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="task-progreso"/>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="task-link">Link</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="task-link"/>
+                                  </div>
+                                <button type="submit" class="btn btn-primary btn-edit my-4">
+                                  Actualizar
+                                </button>
+                                <button type="submit" id="btn-perfil"class="btn btn-primary  my-4">
+                                 <a href="perfil.html" target="_blank"> Ver perfil</a>
+                                </button>
+                                </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-6 my-4">
+                  <h2>Mis alumnos</h2>
+                  <div id="info-alumnos">
+
+                  </div>
+               </div>
+
+             </div>
+     </div>
+    
+      <!--------------------------End--ontainer-->
+    </div>
+        <!-- Footer ----------------------------------------------------------------->
+        <footer class="text-center text-white p-4" style="background-color: #18191f">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-4 mt-3">
+                <a href="#!"><i class="fab fa-facebook-f ms-4 me-4"></i></a>
+                <a href="#!"><i class="fab fa-twitter ms-4 me-4"></i></a>
+                <a href="#!"><i class="fab fa-instagram ms-4 me-4"></i></a>
+              </div>
+              <div class="col-lg-4 mt-3">
+                <h3>Sence</h3>
+              </div>
+              <div class="col-lg-4 mt-3">
+                <p style="font-weight: 300">© 2021 Sence. All rights reserved</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+    <!-- -----------------------------------------------------------------------End-----Footer -->
+    <!---------------------------Iconos-->
+    <script
+      src="https://kit.fontawesome.com/18c4a3836b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="../js/FireBase.js"></script>
+    <script type="module" src="../js/tutor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
